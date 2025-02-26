@@ -49,3 +49,7 @@ main {
     display: block;
     padding: 10px;
 }
+
+#login #formulario h1 {
+    text-align: center;
+}
