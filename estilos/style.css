@@ -55,10 +55,38 @@ main {
     margin-bottom: 10px;
 }
 
+#login p {
+    font-size: .9em;
+    padding-bottom: 7px;
+}
+
 #formulario .campo {
     height: 40px;
-    border-radius: 10px;
+    border-radius: 40px;
     margin: 5px 0px;
+    background-color: #191a19;
+}
+
+.campo i {
+    font-size: 2em;
+    width: 40px;
+    padding: 5px;
+}
+
+.campo input {
+    font-size: 1em;
+    width: calc(100% - 45px);
+    height: 100%;
+    padding: 4px;
+    border: 2px solid #555857;
+    border-radius: 40px;
+    color: #fff;
+    background-color: #343635;
+    transform: translateY(-11px);
+}
+
+.campo label {
+    display: none;
 }
 
 form input[type="submit"] {
@@ -71,19 +99,6 @@ form input[type="submit"] {
     border-radius: 40px;
     color: #fff;
     background-color: #df1212;
-}
-
-.campo input {
-    width: 80%;
-    padding: 5px;
-    border: 2px solid #555857;
-    border-radius: 40px;
-    color: #fff;
-    background-color: #343635;
-}
-
-.campo label {
-    display: none;
 }
 
 form input[type="submit"]:hover {
